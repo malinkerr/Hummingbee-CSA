@@ -126,8 +126,8 @@ body {
     border: 2px solid #202020;
     border-radius: 4px;
     margin: -2px;
-    flex-grow: 2;
     height: 300px;
+    width: 100%;
     object-fit: cover;
 }
 
