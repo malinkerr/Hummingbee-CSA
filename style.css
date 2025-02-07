@@ -18,18 +18,15 @@ body {
     border-bottom: 2px solid #202020;
     margin-bottom: -2px;
     box-shadow: 0px -2px 8px #202020;
-    display: flex;
     position: sticky;
     top: 0;
-    justify-content: center;
 }
 #nav-list {
+    padding: 0px 30px;
+    margin: 0px auto;
     background-color: white;
-    padding: 4px 0px;
-    padding: 6px 30px;
     max-width: 580px;
     width: calc(100% - 80px);
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,19 +34,18 @@ body {
 }
 
 #nav-list a {
+    margin: 0px 10px;
     padding: 10px 20px;
     text-align: center;
     text-wrap: nowrap;
     text-decoration: none;
-    border-radius: 4px;
+    /*border-radius: 4px;*/
     color: #202020;
 }
 
 #nav-list a:hover {
     color: white;
     background-color: #e54245;
-    border: 2px solid #202020;
-    margin: -2px;
 }
 
 #title-section {
@@ -92,6 +88,7 @@ body {
 
 #join-button:hover {
     background-color: #e54245;
+    text-decoration: underline;
     border-color: white;
     color: white;
 }
@@ -122,10 +119,11 @@ body {
     border-radius: 10px;
 }
 
-#about-section img {
+#about > img {
     border: 2px solid #202020;
     border-radius: 4px;
     margin: -2px;
+    margin-bottom: 10px;
     height: 300px;
     width: 100%;
     object-fit: cover;
