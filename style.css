@@ -148,16 +148,16 @@ h1.section {
 }
 
 .button {
-    display: block;
-    background-color: white;
-    font-size: 1.2em;
     padding: 10px 20px;
     margin: 20px 0px;
-    border: 2px solid #202020;
-    fill: #202020;
-    border-radius: 4px;
+    display: block;
+    font-size: 1.2em;
     text-decoration: none;
     color: #202020;
+    background-color: white;
+    fill: #202020;
+    border: 2px solid #202020;
+    border-radius: 4px;
 }
 
 .button:hover {
@@ -177,6 +177,8 @@ h1.section {
 .card {
     display: block;
     font-size: 1.25em;
+    text-decoration: none;
+    color: #202020;
     text-align: center;
     padding-top: 8px;
     border: 2px solid #202020;
