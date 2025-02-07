@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "crimson";
+    src: url("CrimsonPro-Regular.ttf")
+}
+
+body {
+    background-color: #d8c6cb;
+    margin: 0px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-family: "crimson";
+}
+
+#top-bar {
+    width: 100%;
+    background-color: #e8dfe2;
+    border-bottom: 2px solid #202020;
+    margin-bottom: -2px;
+    box-shadow: 0px -2px 8px #202020;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+}
+#nav-list {
+    background-color: white;
+    padding: 4px 0px;
+    width: 640px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-spacing: 10px;
+}
+
+#nav-list a {
+    padding: 10px 20px;
+    text-align: center;
+    text-wrap: nowrap;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #202020;
+}
+
+#nav-list a:hover {
+    color: white;
+    background-color: #e54245;
+    border: 2px solid #202020;
+    margin: -2px;
+}
+
+#title-section {
+    width: 100%;
+    padding: 10px 0px;
+    border: 2px solid #202020;
+    background-image: url("images/3.jpg");
+    background-position: left, right;
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+#title-background {
+    width: 300px;
+    height: 230px;
+    color: white;
+    background-color: #e54245;
+    border: 2px solid #202020;
+    border-radius: 150px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+#title-background h1 {
+    margin-bottom: -10px;
+}
+
+#join-button {
+    display: inline-block;
+    background-color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 2px solid #202020;
+    text-decoration: none;
+    color: #202020;
+}
+
+#join-button:hover {
+    background-color: #e54245;
+    border-color: white;
+    color: white;
+}
+
+#instagram-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#instagram-section .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#instagram-section img {
+    border-radius: 4px;
+    border: 2px solid #202020;
+    display: block;
+    max-width: 60%;
+}
+
+#instagram-section .button {
+    display: flex;
+    padding: 10px 2px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#about-section img {
+    border: 2px solid #202020;
+    border-radius: 4px;
+    margin: -2px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+ul li {
+    margin: 20px 40px 20px 10px;
+}
+
+h1.section {
+    padding-bottom: 6px;
+    border-top: 10px solid #f8f0f0;
+    border-bottom: 4px solid #e54245;
+}
+.section {
+    border-top: 20px solid #f8f0f0;
+    background-color: white;
+    padding: 20px 30px;
+    max-width: 580px;
+    margin: 0px auto;
+    width: calc(100% - 80px);
+}
+
+.button {
+    display: block;
+    background-color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border: 2px solid #202020;
+    fill: #202020;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #202020;
+}
+
+.button:hover {
+    background-color: #e54245;
+    border-color: #e54245;
+    text-decoration: underline;
+    color: white;
+    fill: white;
+}
+
+#card-section table {
+    table-layout: fixed;
+    width: calc(100% + 48px);
+    margin: -24px;
+    border-spacing: 24px;
+}
+.card {
+    display: block;
+    font-size: 1.25em;
+    text-align: center;
+    padding-top: 8px;
+    border: 2px solid #202020;
+    border-radius: 4px;
+}
+
+.card img {
+    display: block;
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    border-top: 2px solid #202020;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.card:hover {
+    background-color: #e54245;
+    border-color: #e54245;
+    text-decoration: underline;
+    color: white;
+}
+
+footer.section {
+    margin-bottom: 80px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
